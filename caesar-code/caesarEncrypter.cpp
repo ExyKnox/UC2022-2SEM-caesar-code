@@ -27,6 +27,6 @@ void caesarEncrypter::encrypt(int shiftIdx) {
 	}
 }
 
-std::string caesarEncrypter::showEncrypted() {
+std::string caesarEncrypter::getEncrypted() {
 	return codedStr;
 }

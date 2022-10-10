@@ -11,6 +11,6 @@ class caesarEncrypter
 	public:
 		caesarEncrypter(std::string str);
 		void encrypt(int shiftIdx);
-		std::string showEncrypted();
+		std::string getEncrypted();
 };
 

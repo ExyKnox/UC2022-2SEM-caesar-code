@@ -7,8 +7,8 @@ int main()
 {
     caesarEncrypter cE = caesarEncrypter("test String");
     cE.encrypt(3);
-    std::cout << "Encrypted Str : " + cE.showEncrypted() << std::endl;
-    caesarDecrypter cD = caesarDecrypter(cE.showEncrypted());
+    std::cout << "Encrypted Str : " + cE.getEncrypted() << std::endl;
+    caesarDecrypter cD = caesarDecrypter(cE.getEncrypted());
     cD.decrypt(3);
-    std::cout << "Decrypted Str : " + cD.showDecrypted() << std::endl;
+    std::cout << "Decrypted Str : " + cD.getDecrypted() << std::endl;
 }

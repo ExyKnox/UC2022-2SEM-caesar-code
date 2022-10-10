@@ -11,6 +11,6 @@ class caesarDecrypter
 	public:
 		caesarDecrypter(std::string str);
 		void decrypt(int shiftIdx);
-		std::string showDecrypted();
+		std::string getDecrypted();
 };
 

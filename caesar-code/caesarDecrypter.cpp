@@ -24,6 +24,6 @@ void caesarDecrypter::decrypt(int shiftIdx) {
 	}
 }
 
-std::string caesarDecrypter::showDecrypted() {
+std::string caesarDecrypter::getDecrypted() {
 	return decodedStr;
 }
