@@ -3,7 +3,7 @@
 #include "caesarEncrypter.h"
 
 // caesarEncrypter 객체 생성자.
-// 매개변수로 받은 char string을 "객체 내부에 입력"
+// 매개변수로 받은 char string을 객체 내부 변수에 입력
 caesarEncrypter::caesarEncrypter(std::string str) {
 	// string의 모든 글자를 대문자로 치환 후 객체 내부 변수에 로드
 	for (int i = 0; i < str.length(); i++) {
