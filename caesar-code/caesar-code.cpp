@@ -1,6 +1,10 @@
 ﻿#include <iostream>
+#include "caesarEncrypter.h"
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    caesarEncrypter cE = caesarEncrypter("testString");
+    cE.encrypt(3);
+    std::cout << cE.showEncrypted() << std::endl;
 }
