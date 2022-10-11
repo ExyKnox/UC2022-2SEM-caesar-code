@@ -5,7 +5,7 @@
 
 int main()
 {
-    caesarEncrypter cE = caesarEncrypter("test String");
+    caesarEncrypter cE = caesarEncrypter("be careful for assasinator");
     cE.encrypt(3);
     std::cout << "Encrypted Str : " + cE.getEncrypted() << std::endl;
     caesarDecrypter cD = caesarDecrypter(cE.getEncrypted());
